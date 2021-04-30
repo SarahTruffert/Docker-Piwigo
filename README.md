@@ -20,15 +20,8 @@ Les commandes générales :
     docker build -t (nom img) -docker-build : -t permet de donner un nom à votre image Docker + . est le répertoire où se trouve le Dockerfile (racine)
 
 
-- Ou trouver Piwigo : http://localhost:8000
-
-Base de donnée : mysql / utilisateur piwigo / mot de passe : piwigo 
-
-- Ou télécharger piwigo : https://piwigo.org/doc/doku.php?id=user_documentation:learn:install:installation_manual
-
-
-
-
+- Servi en localhost sur le port 8000 : http://localhost:8000
+- Base de donnée : mysql / utilisateur piwigo / mot de passe : piwigo 
 
 
 - Accorder droits :
