@@ -24,11 +24,4 @@ Les commandes générales :
 - Base de donnée : mysql / utilisateur piwigo / mot de passe : piwigo 
 
 
-- Accorder droits :
-
-docker ps 
-
-docker exec -it nom du conteneur bash 
-
-
-
+- Accorder droits : docker ps / docker exec -it nom du conteneur bash 
