@@ -1,8 +1,8 @@
 - Projet utilisé en base : https://github.com/moritzheiber/piwigo-docker.git
 
-Modifications apportées au docker Dokerfile, il passait initialement via un liens de téléchargement (via un curl), 
+    Modifications apportées au docker Dokerfile, il passait initialement via un liens de téléchargement (via un curl), 
 
-unzip, supression du cache et du fichier zip. Pour répondre à la demande du brief les dockerfiles sont directement liés à Piwigo.
+    unzip, supression du cache et du fichier zip. Pour répondre à la demande du brief les dockerfiles sont directement liés à Piwigo.
 
 ```
 $ docker build -t piwigo-docker ./
