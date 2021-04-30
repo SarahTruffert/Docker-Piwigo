@@ -25,3 +25,4 @@ Les commandes générales :
 
 
 - Accorder droits : docker ps / docker exec -it nom du conteneur bash 
+- Documentation : https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run
