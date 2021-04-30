@@ -8,12 +8,10 @@ ENV PIWIGO_VERSION="2.10.2" \
 # Copie fichier actuel dans le container :
 COPY piwigo-11.4.0 /piwigo
 
-# RUN execute commande conteneur 
-# définit (-x) ?
 RUN set -x
 
 # Installe les outils requis pour le projet
-# --no-cache .` pour mettre à jour les dépendances
+# --no-cache pour mettre à jour les dépendances
 RUN apk --no-cache add curl php7 php7-gd php7-mysqli php7-json php7-session php7-exif
 
 # Ajoute l'utilisateur
@@ -32,6 +30,5 @@ WORKDIR /piwigo
 # Si pas de privilèges spéciaux : 
 USER piwigo
 
-# -s ?
 # Execute php sur le port 8000 sous le nom de piwigo :
 CMD ["php","-S","0.0.0.0:8000","-t","piwigo"]
