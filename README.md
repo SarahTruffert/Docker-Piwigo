@@ -22,11 +22,7 @@ Les commandes générales :
 
 - Ou trouver Piwigo : http://localhost:8000
 
-Base de donnée : mysql
-
-L'utilisateur piwigo 
-
-Le mot de passe : piwigo 
+Base de donnée : mysql / utilisateur piwigo / mot de passe : piwigo 
 
 - Ou télécharger piwigo : https://piwigo.org/doc/doku.php?id=user_documentation:learn:install:installation_manual
 
