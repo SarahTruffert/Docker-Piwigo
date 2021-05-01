@@ -29,4 +29,4 @@ Les commandes générales :
 
 - Les volumes : https://www.youtube.com/watch?v=6rKg9xuWr5Q
 
-= décupler et partager les données entre les containers ET la machine hôte.
+    = décupler et partager les données entre les containers ET la machine hôte.
