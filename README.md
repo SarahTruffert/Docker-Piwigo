@@ -7,6 +7,8 @@
 ```
 $ docker build -t piwigo-docker ./
 $ docker-compose up -d
+# Accorder droits :
+$ docker ps / docker exec -it nom du conteneur bash 
 ```
 
 Les commandes générales :
@@ -22,11 +24,8 @@ Les commandes générales :
 
 - Servi en localhost sur le port 8000 : http://localhost:8000
 - Base de donnée : mysql / utilisateur piwigo / mot de passe : piwigo 
-
-
-- Accorder droits : docker ps / docker exec -it nom du conteneur bash 
-- Documentation : https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run
-
 - Les volumes : https://www.youtube.com/watch?v=6rKg9xuWr5Q
 
     = décupler et partager les données entre les containers ET la machine hôte.
+
+- Documentation utile : https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run
