@@ -29,3 +29,4 @@ Les commandes générales :
     = décupler et partager les données entre les containers ET la machine hôte.
 
 - Documentation utile : https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run
+    image Nginx : https://hub.docker.com/r/jwilder/nginx-proxy/
