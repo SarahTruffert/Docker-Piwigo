@@ -26,3 +26,7 @@ Les commandes générales :
 
 - Accorder droits : docker ps / docker exec -it nom du conteneur bash 
 - Documentation : https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run
+
+- Les volumes : https://www.youtube.com/watch?v=6rKg9xuWr5Q
+
+= décupler et partager les données entre les containers ET la machine hôte.
